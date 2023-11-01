@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["ES2022", "dom"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["src/*"],
+      "@dir/*": ["*"],
+      "@server/*": ["src/server/*"],
+      "@web/*": ["src/web/*"]
+    },
+    "strict": true,
+    "target": "ESNext",
+    "typeRoots": ["./node_modules/@types", "typings"],
+    "types": ["node"]
+  },
+  "exclude": ["**/*.js", "**/*.jsx", "dist", "node_modules"],
+  "include": ["**/*.ts", "**/*.tsx"]
+}

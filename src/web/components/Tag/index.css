@@ -1,0 +1,28 @@
+.tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: var(--radius-size-4);
+}
+
+.tag-success {
+  color: rgb(12, 188, 135);
+  background-color: rgb(230, 248, 243);
+}
+
+.tag-error {
+  color: rgb(214, 41, 62);
+  background-color: rgb(251, 233, 235);
+}
+
+.tag-warning {
+  color: rgb(254, 249, 234);
+  background-color: rgb(247, 195, 46);
+}
+
+.tag-default {
+  color: rgb(79, 158, 248);
+  background-color: rgb(237, 245, 254);
+}

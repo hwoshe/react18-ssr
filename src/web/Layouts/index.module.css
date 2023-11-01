@@ -1,0 +1,9 @@
+.main {
+  flex-grow: 1;
+  padding-top: 80px;
+  background: var(--theme-main-bg);
+  & .container {
+    width: 1140px;
+    margin: 0 auto 24px;
+  }
+}

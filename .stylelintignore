@@ -1,0 +1,10 @@
+*.js
+*.jsx
+*.ts
+*.tsx
+*.jpg
+*.woff
+# coverage
+/coverages
+/dist
+/node_modules

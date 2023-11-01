@@ -1,0 +1,56 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 56px;
+  background: var(--theme-bg);
+  box-shadow: var(--theme-navbar-shadow);
+  & ul {
+    display: flex;
+    align-items: center;
+    width: var(--width-1140);
+    height: 100%;
+    margin: 0 auto;
+    & li {
+      display: flex;
+    }
+    & li:last-child {
+      margin-left: auto;
+    }
+    & .logo {
+      display: inline-block;
+      padding: 4px 12px;
+      &:before {
+        display: flex;
+        width: 24px;
+        height: 24px;
+        background: var(--theme-github-link);
+        content: '';
+      }
+    }
+    & .blogname {
+      margin-left: 10px;
+    }
+    & .toggleButton {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      text-align: center;
+      border-radius: 50%;
+      /* transition: background var(--ifm-transition-fast); */
+    }
+    & .toggleButton:hover {
+      background:  var(--theme-icon-hover);
+    }
+  }
+
+  & .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-size-6);
+  }
+}

@@ -1,0 +1,48 @@
+@import url(@web/theme-default/styles/vars.css);
+@import url(@web/assets/root.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

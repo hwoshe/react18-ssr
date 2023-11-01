@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: var(--width-1140);
+  margin: 0 auto;
+  padding: 16px 0;
+  font-size: 15px;
+  /* color: var(--theme-color); */
+}

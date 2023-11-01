@@ -1,0 +1,22 @@
+.blog-details {
+  width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 15px;
+  background-color: var(--theme-block-bg);
+  border-radius: var(--radius-size-6);
+  & .rounded {
+    width: 100%;
+    height: 390px;
+    border-radius: var(--radius-size-6);
+  }
+  & .note-box {
+    margin-top: 24px;
+  }
+  & .title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.25;
+  }
+}

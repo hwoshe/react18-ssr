@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  align-items: center;
+  & .search-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(101, 108, 133, 0.8);
+  }
+  & .search-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  & .search-icon {
+    width: 15px;
+    height: 15px;
+  }
+  & .search-placeholder {
+    padding: 0 10px;
+  }
+}
